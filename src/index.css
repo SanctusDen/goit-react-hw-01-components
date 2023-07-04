@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize; bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -21,8 +21,8 @@ ul,li,h1,h2,h3,a,p{
   padding: 0;
 }
 
-@import url('./Profile/Profile.css');
-@import url('./Statistics/Statistics.css');
-@import url('./FriendList/FriendList.css');
-@import url('./Transactions/transactions.css');
+@import url('./components/Profile/Profile.module.css');
+@import url('./components/Statistics/Statistics.css');
+@import url('./components/FriendList/FriendList.css');
+@import url('./components/Transactions/transactions.css');
 
