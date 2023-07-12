@@ -7,6 +7,7 @@
 
   width: 300px;
   height: auto; 
+  box-shadow: rgba(0, 0, 0, 0.75) -4px 4px 8px 1px;
   
   background-color: #fff;
   margin-top: 60px;
@@ -48,12 +49,17 @@
 .stats{
   display: flex;
   justify-content: space-around;
-  gap: 60px;
   margin-top: 16px;
-  border: 1.5px solid #111;
+  
 
   width: 100%;
   background-color: #d7d2d2;
+}
+
+.list_profile{
+  border: 1.5px solid #111;
+  flex-basis: calc((100% - 12px) / 3);
+  padding: 12px;
 }
 
 .quantity{

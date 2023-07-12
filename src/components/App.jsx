@@ -10,8 +10,8 @@ import FriendList from './FriendList/FriendList';
 
 export function App() {
   return (
-    <div>
-      <div>
+    <>
+      <>
         <Profile
           username={user.username}
           tag={user.tag}
@@ -19,21 +19,20 @@ export function App() {
           avatar={user.avatar}
           stats={user.stats}
         />
-      </div>
+      </>
       
-      <div>
+      <>
         <Statistics title="Upload stats" stats={data} />
-        <Statistics stats={data} />
-      </div>
+        {/* <Statistics stats={data} /> */}
+      </>
 
-      <div>
+      <>
         <FriendList friends={friends} />;
-      </div>
+      </>
 
-      {/* <div>
+      {/* <>
         <TransactionHistory items={transactions} />;
-      </div> */}
-      
-    </div>
+      </> */}
+    </>  
   );
 };
