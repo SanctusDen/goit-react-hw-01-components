@@ -36,10 +36,14 @@ export const StatList = styled.li`
 
 export const LabelStatistics = styled.span`
     justify-content:center;
+    display: flex;
 `;
 
 export const PercentageStatistics = styled.span`
     color:white;
+    justify-content: center;
+    display: flex;
+    font-size:20px;
 `;
 
 function getRandomHexColor() {

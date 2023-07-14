@@ -27,7 +27,7 @@ export function App() {
       </>
 
       <>
-        <FriendList friends={friends} />;
+        <FriendList friends={friends} />
       </>
 
       {/* <>
