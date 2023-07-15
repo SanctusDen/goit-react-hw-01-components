@@ -6,7 +6,9 @@ export const FriendCard = styled.li`
     justify-content: flex-start;
     align-items: center;
     column-gap: 12px;
-    margin-top: 8px;
+    margin-top: 18px;
+    margin-left:auto;
+    margin-right:auto;
     padding-top: 4px;
     padding-bottom: 4px;
     padding-left: 20px;
@@ -16,15 +18,6 @@ export const FriendCard = styled.li`
         transform: scale(1.03);
 }
 `;
-// const setColor = props => props.networkStatus ? 'green' : 'red';
-
-// export const Status = styled.span`
-// background-color: ${setColor};
-// display: block;
-// width: 12px;
-// height: 12px;
-// border-radius: 50%;
-// `;
 
 export const FriendStatus = styled.span`
   width: 20px;

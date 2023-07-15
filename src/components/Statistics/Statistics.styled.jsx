@@ -4,7 +4,7 @@ export const SectionStatistic = styled.section`
     display:flex;
     flex-direction:column;
     align-items:center;
-    margin-top:80px;
+    margin-top:40px;
     margin-button:80px;
 
 `;
